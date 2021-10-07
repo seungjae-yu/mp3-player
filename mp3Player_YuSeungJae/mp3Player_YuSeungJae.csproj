@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9CB68B1D-FCF5-4C4A-91BC-4376FB261235}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>mp3Player_YuSeungJae</RootNamespace>
+    <AssemblyName>mp3Player_YuSeungJae</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.Shell32">
+      <HintPath>..\..\..\..\..\Desktop\건규\bin\Debug\Interop.Shell32.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="JLyrics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\JLyrics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CodeFile\CodeFile_Class.cs" />
+    <Compile Include="Form\Form_Youtube.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Form_Youtube.Designer.cs">
+      <DependentUpon>Form_Youtube.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Form_Main.Designer.cs">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Form_ranking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Form_ranking.Designer.cs">
+      <DependentUpon>Form_ranking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Form_search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Form_search.Designer.cs">
+      <DependentUpon>Form_search.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CodeFile\PlayClass.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form\Form_Youtube.resx">
+      <DependentUpon>Form_Youtube.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Form_ranking.resx">
+      <DependentUpon>Form_ranking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Form_search.resx">
+      <DependentUpon>Form_search.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Form_Main.resx">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1111_hyemin79.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\119_oksk333.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ED959CECA7802.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beforemusic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beforemusic1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\크기변환_beforemusic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\크기변환_beforemusic1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\크기변환_play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\크기변환_stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\크기변환_pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\크기변환_nextmusic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\크기변환_replay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ㅁㄴㅇㄹ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ㅁㄹㅇㅇㅇ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagesCA1YOLY5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

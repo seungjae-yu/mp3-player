@@ -1,0 +1,12 @@
+c:\users\seungjae\documents\visual studio 2010\Projects\mp3Player_YuSeungJae\mp3Player_YuSeungJae\bin\Debug\mp3Player_YuSeungJae.pdb
+c:\users\seungjae\documents\visual studio 2010\Projects\mp3Player_YuSeungJae\mp3Player_YuSeungJae\obj\x86\Debug\mp3Player_YuSeungJae.Form_MusicPlayer.resources
+c:\users\seungjae\documents\visual studio 2010\Projects\mp3Player_YuSeungJae\mp3Player_YuSeungJae\obj\x86\Debug\mp3Player_YuSeungJae.Properties.Resources.resources
+c:\users\seungjae\documents\visual studio 2010\Projects\mp3Player_YuSeungJae\mp3Player_YuSeungJae\obj\x86\Debug\mp3Player_YuSeungJae.csproj.GenerateResource.Cache
+c:\users\seungjae\documents\visual studio 2010\Projects\mp3Player_YuSeungJae\mp3Player_YuSeungJae\obj\x86\Debug\mp3Player_YuSeungJae.pdb
+c:\users\seungjae\documents\visual studio 2010\Projects\mp3Player_YuSeungJae\mp3Player_YuSeungJae\obj\x86\Debug\mp3Player_YuSeungJae.Form_search.resources
+c:\users\seungjae\documents\visual studio 2010\Projects\mp3Player_YuSeungJae\mp3Player_YuSeungJae\obj\x86\Debug\mp3Player_YuSeungJae.Form_ranking.resources
+C:\Users\SeungJae\documents\visual studio 2010\Projects\mp3Player_YuSeungJae\mp3Player_YuSeungJae\obj\x86\Debug\mp3Player_YuSeungJae.csprojResolveAssemblyReference.cache
+C:\Users\SeungJae\documents\visual studio 2010\Projects\mp3Player_YuSeungJae\mp3Player_YuSeungJae\bin\Debug\mp3Player_YuSeungJae.exe
+C:\Users\SeungJae\documents\visual studio 2010\Projects\mp3Player_YuSeungJae\mp3Player_YuSeungJae\obj\x86\Debug\mp3Player_YuSeungJae.exe
+C:\Users\SeungJae\documents\visual studio 2010\Projects\mp3Player_YuSeungJae\mp3Player_YuSeungJae\obj\x86\Debug\mp3Player_YuSeungJae.Form_Youtube.resources
+C:\Users\SeungJae\documents\visual studio 2010\Projects\mp3Player_YuSeungJae\mp3Player_YuSeungJae\bin\Debug\JLyrics.dll
